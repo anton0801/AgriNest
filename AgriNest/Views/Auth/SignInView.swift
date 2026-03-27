@@ -82,9 +82,9 @@ struct SignInView: View {
                             quickSignIn()
                         }) {
                             HStack(spacing: 8) {
-                                Image(systemName: "apple.logo")
-                                    .font(.system(size: 18, weight: .semibold))
-                                Text("Sign in with Apple")
+//                                Image(systemName: "apple.logo")
+//                                    .font(.system(size: 18, weight: .semibold))
+                                Text("Sign in with Demo account")
                                     .font(AppFonts.bodySemibold)
                             }
                             .foregroundColor(.white)
